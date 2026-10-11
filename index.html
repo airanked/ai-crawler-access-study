@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Crawler Access Study (Oct 2026): Open Dataset | AI Ranked</title>
+<meta name="description" content="Open CSV dataset: robots.txt and llms.txt of 285 major websites checked against 14 AI crawlers in October 2026. CC BY 4.0, by AI Ranked.">
+<link rel="canonical" href="https://airanked.github.io/ai-crawler-access-study/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Ranked">
+<meta property="og:title" content="AI Crawler Access Study (Oct 2026): Open Dataset">
+<meta property="og:description" content="robots.txt and llms.txt of 285 major websites checked against 14 AI crawlers. Free CSV under CC BY 4.0.">
+<meta property="og:url" content="https://airanked.github.io/ai-crawler-access-study/">
+<meta property="og:image" content="https://airanked.github.io/ai-crawler-access-study/logo-full-white.png">
+<meta name="twitter:card" content="summary">
+<meta name="color-scheme" content="dark">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "AI Crawler Access Study",
+  "alternateName": "AI Crawler Access Study (October 2026)",
+  "description": "robots.txt and llms.txt of 285 major websites in 10 categories, checked against 14 AI user agents plus Googlebot as a control. Collected October 2026. One row per domain with fetch status, the allowed or blocked result for each agent at the path /, and llms.txt presence.",
+  "url": "https://airanked.github.io/ai-crawler-access-study/",
+  "identifier": "https://doi.org/10.5281/zenodo.23303786",
+  "sameAs": ["https://doi.org/10.5281/zenodo.23303786", "https://huggingface.co/datasets/airanked/ai-crawler-access-2026"],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "creator": {"@type": "Organization", "name": "AI Ranked", "url": "https://airanked.ai"},
+  "publisher": {"@type": "Organization", "name": "AI Ranked", "url": "https://airanked.ai"},
+  "isBasedOn": "https://airanked.ai/research/ai-crawler-access-report",
+  "citation": "AI Ranked Editorial (2026). AI Crawler Access Study. https://doi.org/10.5281/zenodo.23303786",
+  "keywords": ["robots.txt", "llms.txt", "AI crawlers", "GPTBot", "ClaudeBot", "PerplexityBot", "OAI-SearchBot", "open data"],
+  "temporalCoverage": "2026-10",
+  "variableMeasured": ["robots_status", "GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot-Extended", "meta-externalagent", "CCBot", "Bytespider", "Amazonbot", "Googlebot", "llms_txt"],
+  "distribution": [{
+    "@type": "DataDownload",
+    "encodingFormat": "text/csv",
+    "contentUrl": "https://airanked.github.io/ai-crawler-access-study/ai-crawler-access-data.csv"
+  }]
+}
+</script>
+<style>
+:root{--bg:#000;--panel:#0d0d0f;--line:#232327;--text:#ededed;--muted:#a1a1aa;--accent:#fff;--link:#8ab4ff}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--link)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.skip{position:absolute;left:-9999px}.skip:focus{left:16px;top:16px;background:#fff;color:#000;padding:8px 12px;z-index:9}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px}
+header{border-bottom:1px solid var(--line);padding:18px 0}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+header img{height:32px;width:auto;display:block}
+header nav a{color:var(--muted);text-decoration:none;margin-left:16px;font-size:15px}
+header nav a:hover{color:var(--text)}
+main{padding:40px 0 56px}
+.eyebrow{text-transform:uppercase;letter-spacing:.08em;font-size:12px;color:var(--muted);margin:0 0 8px}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.15;margin:0 0 16px}
+h2{font-size:22px;margin:44px 0 12px}
+p{margin:0 0 14px}
+.lead{font-size:18px;color:#d4d4d8}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 8px}
+.btn{display:inline-block;padding:11px 18px;border-radius:8px;text-decoration:none;font-weight:600;border:1px solid var(--line)}
+.btn.primary{background:#fff;color:#000;border-color:#fff}
+.btn.ghost{color:var(--text)}
+.btn:hover{opacity:.9}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin:8px 0 0;padding:0;list-style:none}
+.stats li{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
+.stats b{display:block;font-size:26px;line-height:1.2;color:var(--accent)}
+.stats span{color:var(--muted);font-size:14px}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--panel);color:var(--muted);font-weight:600}
+tr:last-child td{border-bottom:0}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;background:#17171a;padding:1px 5px;border-radius:4px}
+ul.method li,ul.dl li{margin-bottom:8px}
+.cite{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px;overflow-wrap:anywhere}
+.callout{background:var(--panel);border:1px solid var(--line);border-left:3px solid #fff;border-radius:10px;padding:18px;margin-top:44px}
+.callout h2{margin-top:0}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:14px}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <div class="wrap">
+    <a href="https://airanked.ai"><img src="logo-full-white.png" width="117" height="32" alt="AI Ranked"></a>
+    <nav aria-label="Primary"><a href="https://airanked.ai/research/ai-crawler-access-report">Full report</a><a href="https://airanked.ai">airanked.ai</a></nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <p class="eyebrow">Open dataset · October 2026 · CC BY 4.0</p>
+    <h1>AI Crawler Access Study</h1>
+    <p class="lead">We fetched the robots.txt and llms.txt of 285 major websites across 10 categories and checked each file against 14 AI user agents, with Googlebot as a control. The dataset has one row per domain: whether the fetch worked, the allowed or blocked result for every agent at the homepage path, and whether the site serves a valid llms.txt. It is free to reuse with attribution.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://airanked.ai/research/ai-crawler-access-report">Read the full analysis</a>
+      <a class="btn ghost" href="ai-crawler-access-data.csv" download>Download CSV (285 rows)</a>
+    </div>
+
+    <h2 id="numbers">Key numbers</h2>
+    <ul class="stats">
+      <li><b>261 of 285</b><span>robots.txt files we could read</span></li>
+      <li><b>35%</b><span>block at least one AI training crawler (91 sites)</span></li>
+      <li><b>21%</b><span>block at least one AI search crawler (56 sites)</span></li>
+      <li><b>65%</b><span>block none of the 14 AI agents (170 sites)</span></li>
+      <li><b>28.7%</b><span>block CCBot and Bytespider, the most blocked agents</span></li>
+      <li><b>11.5%</b><span>block OAI-SearchBot, the least blocked AI agent</span></li>
+      <li><b>31 of 59</b><span>GPTBot blockers still allow OAI-SearchBot</span></li>
+      <li><b>88% vs 12%</b><span>news vs B2B SaaS sites blocking a training bot</span></li>
+      <li><b>81 of 241</b><span>sites serve a valid llms.txt (34%); B2B SaaS leads at 64%</span></li>
+    </ul>
+    <p style="margin-top:14px;color:var(--muted);font-size:14px">Figures from the <a href="https://airanked.ai/research/ai-crawler-access-report">AI crawler access report on airanked.ai</a>, which has the per-category tables, real robots.txt examples and recommendations.</p>
+
+    <h2 id="columns">Column dictionary</h2>
+    <div class="tbl" role="region" aria-label="Column dictionary" tabindex="0">
+    <table>
+      <thead><tr><th scope="col">Column</th><th scope="col">Type</th><th scope="col">Description</th></tr></thead>
+      <tbody>
+        <tr><td><code>domain</code></td><td>text</td><td>Registrable domain checked, one row per domain.</td></tr>
+        <tr><td><code>category</code></td><td>text</td><td>One of 10 groups: B2B SaaS, News &amp; media, Search &amp; portals, Social &amp; community, Video &amp; streaming, E-commerce &amp; marketplaces, Travel &amp; local, Reference &amp; education, Tech &amp; developer, Government &amp; public sector.</td></tr>
+        <tr><td><code>fetched_ok</code></td><td>yes / no</td><td>Whether robots.txt could be read (a 404 counts as read: no file means crawling is permitted).</td></tr>
+        <tr><td><code>robots_status</code></td><td>text</td><td><code>ok</code>, <code>no robots.txt (404)</code>, or <code>failed (reason)</code> such as 403, 429, timeout.</td></tr>
+        <tr><td><code>GPTBot</code></td><td>allowed / blocked</td><td>OpenAI training crawler.</td></tr>
+        <tr><td><code>OAI-SearchBot</code></td><td>allowed / blocked</td><td>OpenAI search indexing agent (ChatGPT search).</td></tr>
+        <tr><td><code>ChatGPT-User</code></td><td>allowed / blocked</td><td>OpenAI user-requested fetch.</td></tr>
+        <tr><td><code>ClaudeBot</code></td><td>allowed / blocked</td><td>Anthropic training crawler.</td></tr>
+        <tr><td><code>Claude-SearchBot</code></td><td>allowed / blocked</td><td>Anthropic search indexing agent.</td></tr>
+        <tr><td><code>Claude-User</code></td><td>allowed / blocked</td><td>Anthropic user-requested fetch.</td></tr>
+        <tr><td><code>PerplexityBot</code></td><td>allowed / blocked</td><td>Perplexity search indexing agent.</td></tr>
+        <tr><td><code>Perplexity-User</code></td><td>allowed / blocked</td><td>Perplexity user-requested fetch.</td></tr>
+        <tr><td><code>Google-Extended</code></td><td>allowed / blocked</td><td>Google AI training control token.</td></tr>
+        <tr><td><code>Applebot-Extended</code></td><td>allowed / blocked</td><td>Apple AI training control token.</td></tr>
+        <tr><td><code>meta-externalagent</code></td><td>allowed / blocked</td><td>Meta AI training crawler.</td></tr>
+        <tr><td><code>CCBot</code></td><td>allowed / blocked</td><td>Common Crawl crawler (widely used for training).</td></tr>
+        <tr><td><code>Bytespider</code></td><td>allowed / blocked</td><td>ByteDance training crawler.</td></tr>
+        <tr><td><code>Amazonbot</code></td><td>allowed / blocked</td><td>Amazon crawler.</td></tr>
+        <tr><td><code>Googlebot</code></td><td>allowed / blocked</td><td>Control: Google Search crawler.</td></tr>
+        <tr><td><code>llms_txt</code></td><td>yes / no / unknown</td><td><code>yes</code> = HTTP 200, text/plain or text/markdown, file opens with a Markdown H1. <code>unknown</code> = the server refused or errored.</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <p style="margin-top:10px;color:var(--muted);font-size:14px">Agent columns are empty for the 24 domains whose robots.txt could not be read.</p>
+
+    <h2 id="method">Method</h2>
+    <ul class="method">
+      <li><strong>Sample:</strong> 285 hand-picked domains in 10 categories, including 102 B2B SaaS companies and 53 news and media publishers. Each domain appears once.</li>
+      <li><strong>Collection:</strong> October 2026, a Python script requested <code>/robots.txt</code> and <code>/llms.txt</code> on each domain with a 10-second timeout, redirects followed and one retry (including the www host).</li>
+      <li><strong>Base:</strong> 24 domains that refused, timed out or returned an HTML page were excluded from every percentage, leaving n = 261 for robots.txt.</li>
+      <li><strong>Parser:</strong> RFC 9309 rules evaluated at the path <code>/</code>: merged groups, fallback to the <code>*</code> group, longest match wins, Allow wins a tie, <code>*</code> and <code>$</code> wildcards, case-insensitive agent names.</li>
+      <li><strong>llms.txt:</strong> counted only on HTTP 200 with a text content type and a Markdown H1 first line; the adoption base is the 241 domains that returned 200, 404 or 410.</li>
+    </ul>
+
+    <h2 id="download">Download</h2>
+    <ul class="dl">
+      <li><a href="ai-crawler-access-data.csv" download>ai-crawler-access-data.csv</a> (this repository, 285 rows, 20 columns)</li>
+      <li>Zenodo (versioned, DOI): <a href="https://doi.org/10.5281/zenodo.23303786">doi.org/10.5281/zenodo.23303786</a></li>
+      <li>Hugging Face: <a href="https://huggingface.co/datasets/airanked/ai-crawler-access-2026">huggingface.co/datasets/airanked/ai-crawler-access-2026</a></li>
+      <li>Source repository: <a href="https://github.com/airanked/ai-crawler-access-study">github.com/airanked/ai-crawler-access-study</a></li>
+    </ul>
+
+    <h2 id="license">License</h2>
+    <p>Released under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>. You may share and adapt the data for any purpose, including commercially, as long as you credit AI Ranked and link to the source.</p>
+
+    <h2 id="cite">How to cite</h2>
+    <p class="cite">AI Ranked Editorial (2026). AI Crawler Access Study. https://doi.org/10.5281/zenodo.23303786</p>
+
+    <section class="callout" aria-labelledby="full">
+      <h2 id="full">Read the full analysis</h2>
+      <p>The report explains which AI crawlers top websites block, why half of GPTBot blockers keep ChatGPT search open, how news and SaaS differ, and what to put in your own robots.txt.</p>
+      <p><a href="https://airanked.ai/research/ai-crawler-access-report"><strong>Which AI crawlers do top websites block? (airanked.ai)</strong></a></p>
+      <p style="margin:0">More research and free tools at <a href="https://airanked.ai">AI Ranked</a>.</p>
+    </section>
+  </div>
+</main>
+<footer>
+  <div class="wrap">Published by <a href="https://airanked.ai">AI Ranked</a> · Data CC BY 4.0 · October 2026</div>
+</footer>
+</body>
+</html>

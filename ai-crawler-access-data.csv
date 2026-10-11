@@ -1,0 +1,286 @@
+domain,category,fetched_ok,robots_status,GPTBot,OAI-SearchBot,ChatGPT-User,ClaudeBot,Claude-SearchBot,Claude-User,PerplexityBot,Perplexity-User,Google-Extended,Applebot-Extended,meta-externalagent,CCBot,Bytespider,Amazonbot,Googlebot,llms_txt
+google.com,Search & portals,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+bing.com,Search & portals,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+yahoo.com,Search & portals,yes,ok,blocked,allowed,blocked,blocked,allowed,allowed,blocked,allowed,blocked,allowed,allowed,blocked,blocked,allowed,allowed,no
+duckduckgo.com,Search & portals,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+baidu.com,Search & portals,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+yandex.ru,Search & portals,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+naver.com,Search & portals,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+ecosia.org,Search & portals,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,unknown
+brave.com,Search & portals,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+aol.com,Search & portals,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,allowed,allowed,blocked,allowed,allowed,blocked,blocked,allowed,allowed,no
+msn.com,Search & portals,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+facebook.com,Social & community,yes,ok,allowed,blocked,blocked,allowed,blocked,blocked,allowed,blocked,allowed,allowed,blocked,blocked,blocked,allowed,allowed,no
+instagram.com,Social & community,yes,ok,allowed,blocked,blocked,allowed,blocked,blocked,allowed,blocked,allowed,allowed,blocked,blocked,blocked,allowed,allowed,no
+x.com,Social & community,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+linkedin.com,Social & community,yes,ok,blocked,allowed,blocked,blocked,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+reddit.com,Social & community,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,no
+pinterest.com,Social & community,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+tiktok.com,Social & community,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,allowed,no
+snapchat.com,Social & community,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+tumblr.com,Social & community,yes,ok,allowed,allowed,allowed,blocked,allowed,allowed,allowed,allowed,blocked,blocked,blocked,blocked,allowed,blocked,allowed,no
+quora.com,Social & community,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,allowed,blocked,allowed,allowed,blocked,allowed,allowed,no
+discord.com,Social & community,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+twitch.tv,Social & community,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+threads.net,Social & community,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+vk.com,Social & community,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+telegram.org,Social & community,yes,no robots.txt (404),allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+medium.com,Social & community,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,allowed,allowed,allowed,blocked,blocked,allowed,blocked,blocked,allowed,unknown
+substack.com,Social & community,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+youtube.com,Video & streaming,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+netflix.com,Video & streaming,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,blocked,blocked,blocked,blocked,blocked,allowed,no
+spotify.com,Video & streaming,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+vimeo.com,Video & streaming,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,blocked,allowed,allowed,no
+soundcloud.com,Video & streaming,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+hulu.com,Video & streaming,no,failed (200),,,,,,,,,,,,,,,,no
+disneyplus.com,Video & streaming,yes,no robots.txt (404),allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+primevideo.com,Video & streaming,yes,ok,allowed,allowed,blocked,allowed,allowed,blocked,blocked,blocked,allowed,allowed,blocked,blocked,blocked,allowed,allowed,unknown
+dailymotion.com,Video & streaming,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+imdb.com,Video & streaming,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,allowed,unknown
+amazon.com,E-commerce & marketplaces,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,blocked,blocked,blocked,allowed,allowed,no
+ebay.com,E-commerce & marketplaces,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,blocked,allowed,allowed,blocked,blocked,blocked,blocked,blocked,allowed,no
+walmart.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+aliexpress.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,unknown
+alibaba.com,E-commerce & marketplaces,yes,ok,blocked,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,allowed,allowed,allowed,allowed,no
+etsy.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+target.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+bestbuy.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,unknown
+homedepot.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+ikea.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+costco.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+temu.com,E-commerce & marketplaces,no,failed (200),,,,,,,,,,,,,,,,no
+shein.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+rakuten.co.jp,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+mercadolibre.com,E-commerce & marketplaces,yes,ok,blocked,allowed,blocked,blocked,allowed,blocked,blocked,blocked,allowed,allowed,allowed,allowed,allowed,blocked,allowed,no
+wayfair.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,unknown
+zalando.de,E-commerce & marketplaces,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,allowed,yes
+flipkart.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+lowes.com,E-commerce & marketplaces,no,failed (403),,,,,,,,,,,,,,,,unknown
+macys.com,E-commerce & marketplaces,no,failed (403),,,,,,,,,,,,,,,,unknown
+nike.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+apple.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+samsung.com,E-commerce & marketplaces,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+booking.com,Travel & local,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+airbnb.com,Travel & local,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,allowed,allowed,allowed,no
+expedia.com,Travel & local,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+tripadvisor.com,Travel & local,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,allowed,unknown
+uber.com,Travel & local,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+yelp.com,Travel & local,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+kayak.com,Travel & local,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+agoda.com,Travel & local,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+wikipedia.org,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+wikihow.com,Reference & education,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,allowed,blocked,blocked,blocked,blocked,blocked,allowed,no
+britannica.com,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+merriam-webster.com,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+dictionary.com,Reference & education,yes,ok,blocked,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,blocked,allowed,allowed,allowed,no
+investopedia.com,Reference & education,yes,ok,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,unknown
+khanacademy.org,Reference & education,no,failed (200),,,,,,,,,,,,,,,,no
+coursera.org,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,allowed,allowed,yes
+udemy.com,Reference & education,no,failed (403),,,,,,,,,,,,,,,,unknown
+edx.org,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+duolingo.com,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+quizlet.com,Reference & education,no,failed (403),,,,,,,,,,,,,,,,unknown
+chegg.com,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,unknown
+harvard.edu,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+mit.edu,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+stanford.edu,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+ox.ac.uk,Reference & education,no,failed (403),,,,,,,,,,,,,,,,unknown
+cam.ac.uk,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+berkeley.edu,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+nature.com,Reference & education,yes,ok,blocked,allowed,blocked,blocked,allowed,allowed,blocked,allowed,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+sciencedirect.com,Reference & education,yes,ok,blocked,allowed,blocked,blocked,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+arxiv.org,Reference & education,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+webmd.com,Reference & education,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,allowed,no
+mayoclinic.org,Reference & education,no,failed (403),,,,,,,,,,,,,,,,unknown
+healthline.com,Reference & education,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,allowed,no
+github.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,yes
+stackoverflow.com,Tech & developer,no,failed (418),,,,,,,,,,,,,,,,no
+microsoft.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+mozilla.org,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+gitlab.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,unknown
+npmjs.com,Tech & developer,no,failed (403),,,,,,,,,,,,,,,,unknown
+pypi.org,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+docker.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+cloudflare.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+wordpress.org,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+wordpress.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+w3schools.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+dev.to,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+openai.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,unknown
+anthropic.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+perplexity.ai,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,unknown
+huggingface.co,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+adobe.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+dropbox.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+zoom.us,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+paypal.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+stripe.com,Tech & developer,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+usa.gov,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+irs.gov,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+nih.gov,Government & public sector,no,failed (403),,,,,,,,,,,,,,,,unknown
+cdc.gov,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+nasa.gov,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+whitehouse.gov,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+gov.uk,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+nhs.uk,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+europa.eu,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+canada.ca,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+who.int,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,allowed,no
+un.org,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+data.gov,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+sec.gov,Government & public sector,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+salesforce.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+hubspot.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+slack.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+atlassian.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+notion.so,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,no
+asana.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+monday.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+clickup.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+airtable.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+zendesk.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+intercom.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+freshworks.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+servicenow.com,B2B SaaS,no,failed (403),,,,,,,,,,,,,,,,unknown
+workday.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+snowflake.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+datadoghq.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+okta.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+twilio.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+shopify.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+mailchimp.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+semrush.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+ahrefs.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+moz.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+canva.com,B2B SaaS,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,allowed,allowed,allowed,blocked,blocked,blocked,blocked,allowed,allowed,unknown
+figma.com,B2B SaaS,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,allowed,allowed,blocked,allowed,allowed,blocked,blocked,allowed,allowed,no
+miro.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+docusign.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+box.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,unknown
+gong.io,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+outreach.io,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+salesloft.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+zoominfo.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,blocked,blocked,blocked,allowed,yes
+apollo.io,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+pipedrive.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+calendly.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,allowed,yes
+loom.com,B2B SaaS,yes,ok,blocked,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+webflow.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+wix.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+squarespace.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+sendgrid.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+segment.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+amplitude.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,yes
+mixpanel.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+hotjar.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+sproutsocial.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+hootsuite.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+buffer.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+gusto.com,B2B SaaS,no,failed (403),,,,,,,,,,,,,,,,unknown
+rippling.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+deel.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+bamboohr.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+lattice.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+greenhouse.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+lever.co,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+netsuite.com,B2B SaaS,no,failed (403),,,,,,,,,,,,,,,,unknown
+xero.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+quickbooks.intuit.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+brex.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+ramp.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+bill.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+chargebee.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+zuora.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+mongodb.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+elastic.co,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+confluent.io,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+databricks.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+hashicorp.com,B2B SaaS,no,failed (429),,,,,,,,,,,,,,,,unknown
+vercel.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+netlify.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+sentry.io,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+pagerduty.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+newrelic.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+dynatrace.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+splunk.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+crowdstrike.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+paloaltonetworks.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+zscaler.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+1password.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+lastpass.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+auth0.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+postman.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,yes
+jetbrains.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+linear.app,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+trello.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+smartsheet.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+wrike.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+basecamp.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+typeform.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+surveymonkey.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+qualtrics.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+marketo.com,B2B SaaS,no,failed (timeout),,,,,,,,,,,,,,,,unknown
+klaviyo.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+braze.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+contentful.com,B2B SaaS,no,failed (429),,,,,,,,,,,,,,,,unknown
+sanity.io,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+algolia.com,B2B SaaS,no,failed (403),,,,,,,,,,,,,,,,unknown
+grammarly.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+jasper.ai,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+writer.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+g2.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,yes
+capterra.com,B2B SaaS,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,unknown
+gartner.com,B2B SaaS,yes,ok,blocked,blocked,blocked,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,blocked,allowed,allowed,allowed,no
+nytimes.com,News & media,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,allowed,no
+washingtonpost.com,News & media,yes,ok,allowed,allowed,allowed,blocked,allowed,allowed,blocked,allowed,allowed,blocked,blocked,blocked,blocked,blocked,allowed,unknown
+wsj.com,News & media,yes,ok,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,unknown
+cnn.com,News & media,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,blocked,blocked,blocked,allowed,no
+foxnews.com,News & media,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+nbcnews.com,News & media,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+cbsnews.com,News & media,yes,ok,blocked,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+abcnews.go.com,News & media,yes,ok,blocked,allowed,blocked,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,blocked,blocked,allowed,allowed,no
+usatoday.com,News & media,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,unknown
+npr.org,News & media,no,failed (timeout),,,,,,,,,,,,,,,,unknown
+apnews.com,News & media,yes,ok,blocked,allowed,allowed,blocked,blocked,blocked,blocked,allowed,allowed,blocked,allowed,blocked,allowed,blocked,allowed,no
+reuters.com,News & media,yes,ok,blocked,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,unknown
+bloomberg.com,News & media,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,blocked,allowed,blocked,blocked,blocked,blocked,blocked,blocked,allowed,unknown
+cnbc.com,News & media,yes,ok,blocked,blocked,blocked,blocked,allowed,blocked,blocked,allowed,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+forbes.com,News & media,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,blocked,allowed,allowed,blocked,blocked,blocked,blocked,blocked,allowed,no
+businessinsider.com,News & media,yes,ok,allowed,allowed,allowed,blocked,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,blocked,allowed,allowed,no
+theatlantic.com,News & media,yes,ok,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,unknown
+newyorker.com,News & media,yes,ok,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+politico.com,News & media,no,failed (403),,,,,,,,,,,,,,,,unknown
+axios.com,News & media,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,blocked,blocked,allowed,no
+latimes.com,News & media,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,no
+time.com,News & media,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,unknown
+bbc.com,News & media,yes,ok,blocked,blocked,blocked,blocked,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+bbc.co.uk,News & media,yes,ok,blocked,blocked,blocked,blocked,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+theguardian.com,News & media,yes,ok,allowed,allowed,allowed,blocked,blocked,blocked,blocked,allowed,allowed,blocked,blocked,blocked,blocked,blocked,allowed,no
+dailymail.co.uk,News & media,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+telegraph.co.uk,News & media,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,blocked,blocked,blocked,blocked,blocked,allowed,no
+independent.co.uk,News & media,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+thetimes.co.uk,News & media,yes,ok,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+ft.com,News & media,yes,ok,allowed,allowed,allowed,blocked,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,allowed,no
+economist.com,News & media,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,blocked,blocked,allowed,allowed,unknown
+sky.com,News & media,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+aljazeera.com,News & media,no,failed (URLError),,,,,,,,,,,,,,,,unknown
+lemonde.fr,News & media,yes,ok,allowed,allowed,allowed,blocked,blocked,blocked,allowed,allowed,blocked,blocked,allowed,blocked,blocked,blocked,allowed,no
+spiegel.de,News & media,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,allowed,no
+elpais.com,News & media,yes,ok,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,allowed,allowed,allowed,blocked,blocked,blocked,allowed,no
+corriere.it,News & media,yes,ok,blocked,allowed,blocked,blocked,allowed,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+lefigaro.fr,News & media,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,allowed,allowed,blocked,allowed,allowed,blocked,allowed,blocked,allowed,no
+asahi.com,News & media,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+timesofindia.indiatimes.com,News & media,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,allowed,allowed,yes
+hindustantimes.com,News & media,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,yes
+scmp.com,News & media,yes,ok,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,allowed,no
+abc.net.au,News & media,yes,ok,blocked,allowed,blocked,blocked,allowed,allowed,blocked,allowed,blocked,allowed,blocked,blocked,blocked,allowed,allowed,no
+smh.com.au,News & media,yes,ok,blocked,blocked,blocked,blocked,allowed,allowed,blocked,allowed,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+cbc.ca,News & media,no,failed (timeout),,,,,,,,,,,,,,,,unknown
+theverge.com,News & media,yes,ok,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,allowed,no
+techcrunch.com,News & media,yes,ok,blocked,allowed,blocked,blocked,allowed,allowed,allowed,allowed,blocked,blocked,allowed,blocked,blocked,allowed,allowed,no
+wired.com,News & media,yes,ok,allowed,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+arstechnica.com,News & media,no,failed (405),,,,,,,,,,,,,,,,unknown
+vox.com,News & media,yes,ok,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,allowed,no
+buzzfeed.com,News & media,yes,ok,blocked,allowed,allowed,blocked,allowed,allowed,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+huffpost.com,News & media,yes,ok,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,blocked,allowed,no
+espn.com,News & media,yes,ok,blocked,allowed,blocked,allowed,allowed,allowed,allowed,allowed,blocked,allowed,allowed,blocked,blocked,allowed,allowed,no
