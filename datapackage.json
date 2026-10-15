@@ -1,0 +1,145 @@
+{
+  "name": "ai-crawler-access-2026",
+  "title": "AI Crawler Access Study: robots.txt and llms.txt of 261 Major Websites (October 2026)",
+  "description": "Robots.txt and llms.txt of 285 major websites in 10 categories, checked against 14 AI user agents (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, Claude-User, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, meta-externalagent, CCBot, Bytespider, Amazonbot) plus Googlebot as a control. 261 of the 285 robots.txt files could be read. One row per domain, 20 columns. Collected October 2026 by AI Ranked.",
+  "homepage": "https://airanked.ai/research/ai-crawler-access-report",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "AI Ranked Editorial",
+      "email": "editors@airanked.ai",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "robots.txt",
+    "llms.txt",
+    "ai crawlers",
+    "gptbot",
+    "claudebot",
+    "perplexitybot",
+    "web scraping",
+    "internet measurement",
+    "seo",
+    "generative engine optimization"
+  ],
+  "resources": [
+    {
+      "name": "ai-crawler-access-data",
+      "path": "ai-crawler-access-data.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "domain",
+            "type": "string",
+            "description": "Website domain"
+          },
+          {
+            "name": "category",
+            "type": "string",
+            "description": "Site category used in the study"
+          },
+          {
+            "name": "fetched_ok",
+            "type": "string",
+            "description": "Whether robots.txt was fetched successfully (yes/no)"
+          },
+          {
+            "name": "robots_status",
+            "type": "string",
+            "description": "HTTP or parse status of robots.txt"
+          },
+          {
+            "name": "GPTBot",
+            "type": "string",
+            "description": "Rule for the GPTBot user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "OAI-SearchBot",
+            "type": "string",
+            "description": "Rule for the OAI-SearchBot user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "ChatGPT-User",
+            "type": "string",
+            "description": "Rule for the ChatGPT-User user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "ClaudeBot",
+            "type": "string",
+            "description": "Rule for the ClaudeBot user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "Claude-SearchBot",
+            "type": "string",
+            "description": "Rule for the Claude-SearchBot user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "Claude-User",
+            "type": "string",
+            "description": "Rule for the Claude-User user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "PerplexityBot",
+            "type": "string",
+            "description": "Rule for the PerplexityBot user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "Perplexity-User",
+            "type": "string",
+            "description": "Rule for the Perplexity-User user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "Google-Extended",
+            "type": "string",
+            "description": "Rule for the Google-Extended user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "Applebot-Extended",
+            "type": "string",
+            "description": "Rule for the Applebot-Extended user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "meta-externalagent",
+            "type": "string",
+            "description": "Rule for the meta-externalagent user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "CCBot",
+            "type": "string",
+            "description": "Rule for the CCBot user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "Bytespider",
+            "type": "string",
+            "description": "Rule for the Bytespider user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "Amazonbot",
+            "type": "string",
+            "description": "Rule for the Amazonbot user agent in robots.txt: allowed or blocked"
+          },
+          {
+            "name": "Googlebot",
+            "type": "string",
+            "description": "Rule for Googlebot (allowed/blocked), included as a control"
+          },
+          {
+            "name": "llms_txt",
+            "type": "string",
+            "description": "Whether the site serves an llms.txt file (yes/no)"
+          }
+        ]
+      }
+    }
+  ]
+}
